@@ -19,5 +19,5 @@ const inputCalc = document.querySelector(".screen");
 
     function reset() {
         resultCalc.value = "0,00";
-        inputCalc.value = "0,00";
+        inputCalc.value = "";
     }
