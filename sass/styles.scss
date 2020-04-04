@@ -56,6 +56,7 @@ body {
 
 @keyframes glitch-before {
     $steps: 20;
+
     @for $i from 0 through $steps {
         #{percentage($i*(1/$steps))} {
             clip: rect(random(150)+px, 350px, random(150)+px, 30px)
@@ -66,6 +67,7 @@ body {
 
 @keyframes glitch-after {
     $steps: 20;
+
     @for $i from 0 through $steps {
         #{percentage($i*(1/$steps))} {
             clip: rect(random(150)+px, 350px, random(150)+px, 30px)
@@ -80,8 +82,8 @@ a {
     line-height: 1.5;
     height: 50px;
     width: 200px;
-    border: 1px solid #ff5e6c;
-    box-shadow: 4px 4px #ff5e6c;
+    border: 1px solid #feb300;
+    box-shadow: 4px 4px #feb300;
     margin: 5px;
     background-color: #000;
 }
@@ -105,4 +107,61 @@ a:hover {
 .link {
     padding-top: 5px;
     padding-left: 5px;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: black;
+    border: 2px solid white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: -480px;
+    margin-left: 1200px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    margin-left: -200px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+.show {
+    display: block;
+}
+
+.www {
+    background-color: black;
 }
