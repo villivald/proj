@@ -102,6 +102,7 @@ a:hover {
     justify-content: flex-start;
     align-items: stretch;
     padding: 10px;
+    width: 30%;
 }
 
 .link {
@@ -112,10 +113,18 @@ a:hover {
 .dropbtn {
     background-color: black;
     color: white;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     font-size: 16px;
     border: 1px solid white;
     cursor: pointer;
+    margin-right: 1.5%;
+}
+
+button {
+    width: 10%;
+    height: 5%;
+    margin-top: 1.5%;
 }
 
 .dropbtn:hover,
@@ -124,19 +133,17 @@ a:hover {
     border: 2px solid white;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-    margin-top: -480px;
-    margin-left: 1200px;
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: black;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -146,10 +153,9 @@ a:hover {
 .dropdown-content a {
     color: white;
     padding: 12px 16px;
-    margin-bottom: 10px;
-    margin-left: -200px;
     text-decoration: none;
-    display: block;
+    display: flex;
+    margin-left: 200%;
 }
 
 /* Change color of dropdown links on hover */
@@ -165,3 +171,16 @@ a:hover {
 .www {
     background-color: black;
 }
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    button {
+      width:15%;
+    }
+    .link {
+        width: 130%;
+    }
+    .dropbtn {
+        margin-top: 4.0%;
+    }
+  }

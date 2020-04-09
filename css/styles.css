@@ -119,132 +119,132 @@ body {
 
 @keyframes glitch-before {
   0% {
-    clip: rect(70px, 350px, 132px, 30px);
+    clip: rect(47px, 350px, 136px, 30px);
   }
   5% {
-    clip: rect(119px, 350px, 7px, 30px);
+    clip: rect(8px, 350px, 126px, 30px);
   }
   10% {
-    clip: rect(119px, 350px, 76px, 30px);
+    clip: rect(108px, 350px, 144px, 30px);
   }
   15% {
-    clip: rect(106px, 350px, 129px, 30px);
+    clip: rect(146px, 350px, 65px, 30px);
   }
   20% {
-    clip: rect(26px, 350px, 149px, 30px);
+    clip: rect(132px, 350px, 34px, 30px);
   }
   25% {
-    clip: rect(140px, 350px, 121px, 30px);
+    clip: rect(122px, 350px, 85px, 30px);
   }
   30% {
-    clip: rect(122px, 350px, 133px, 30px);
+    clip: rect(82px, 350px, 143px, 30px);
   }
   35% {
-    clip: rect(53px, 350px, 84px, 30px);
+    clip: rect(120px, 350px, 147px, 30px);
   }
   40% {
-    clip: rect(86px, 350px, 11px, 30px);
+    clip: rect(127px, 350px, 36px, 30px);
   }
   45% {
-    clip: rect(132px, 350px, 104px, 30px);
+    clip: rect(130px, 350px, 133px, 30px);
   }
   50% {
-    clip: rect(43px, 350px, 136px, 30px);
+    clip: rect(45px, 350px, 65px, 30px);
   }
   55% {
-    clip: rect(88px, 350px, 47px, 30px);
+    clip: rect(26px, 350px, 98px, 30px);
   }
   60% {
-    clip: rect(133px, 350px, 4px, 30px);
+    clip: rect(114px, 350px, 119px, 30px);
   }
   65% {
-    clip: rect(81px, 350px, 137px, 30px);
+    clip: rect(95px, 350px, 51px, 30px);
   }
   70% {
-    clip: rect(138px, 350px, 117px, 30px);
+    clip: rect(6px, 350px, 93px, 30px);
   }
   75% {
-    clip: rect(95px, 350px, 98px, 30px);
+    clip: rect(53px, 350px, 135px, 30px);
   }
   80% {
-    clip: rect(111px, 350px, 28px, 30px);
+    clip: rect(140px, 350px, 16px, 30px);
   }
   85% {
-    clip: rect(10px, 350px, 10px, 30px);
+    clip: rect(118px, 350px, 141px, 30px);
   }
   90% {
-    clip: rect(113px, 350px, 136px, 30px);
+    clip: rect(57px, 350px, 142px, 30px);
   }
   95% {
-    clip: rect(140px, 350px, 84px, 30px);
+    clip: rect(61px, 350px, 128px, 30px);
   }
   100% {
-    clip: rect(87px, 350px, 134px, 30px);
+    clip: rect(36px, 350px, 122px, 30px);
   }
 }
 @keyframes glitch-after {
   0% {
-    clip: rect(69px, 350px, 48px, 30px);
+    clip: rect(145px, 350px, 51px, 30px);
   }
   5% {
-    clip: rect(16px, 350px, 125px, 30px);
+    clip: rect(1px, 350px, 16px, 30px);
   }
   10% {
-    clip: rect(14px, 350px, 69px, 30px);
+    clip: rect(135px, 350px, 39px, 30px);
   }
   15% {
-    clip: rect(149px, 350px, 93px, 30px);
+    clip: rect(4px, 350px, 9px, 30px);
   }
   20% {
-    clip: rect(104px, 350px, 76px, 30px);
+    clip: rect(4px, 350px, 98px, 30px);
   }
   25% {
-    clip: rect(1px, 350px, 24px, 30px);
+    clip: rect(65px, 350px, 72px, 30px);
   }
   30% {
-    clip: rect(4px, 350px, 121px, 30px);
+    clip: rect(21px, 350px, 30px, 30px);
   }
   35% {
-    clip: rect(127px, 350px, 13px, 30px);
+    clip: rect(3px, 350px, 101px, 30px);
   }
   40% {
-    clip: rect(6px, 350px, 35px, 30px);
+    clip: rect(76px, 350px, 79px, 30px);
   }
   45% {
-    clip: rect(50px, 350px, 71px, 30px);
+    clip: rect(106px, 350px, 126px, 30px);
   }
   50% {
-    clip: rect(143px, 350px, 135px, 30px);
+    clip: rect(131px, 350px, 50px, 30px);
   }
   55% {
-    clip: rect(133px, 350px, 70px, 30px);
+    clip: rect(101px, 350px, 49px, 30px);
   }
   60% {
-    clip: rect(128px, 350px, 88px, 30px);
+    clip: rect(84px, 350px, 9px, 30px);
   }
   65% {
-    clip: rect(60px, 350px, 97px, 30px);
+    clip: rect(87px, 350px, 77px, 30px);
   }
   70% {
-    clip: rect(67px, 350px, 143px, 30px);
+    clip: rect(135px, 350px, 150px, 30px);
   }
   75% {
-    clip: rect(56px, 350px, 30px, 30px);
+    clip: rect(22px, 350px, 45px, 30px);
   }
   80% {
-    clip: rect(150px, 350px, 90px, 30px);
+    clip: rect(138px, 350px, 39px, 30px);
   }
   85% {
-    clip: rect(94px, 350px, 86px, 30px);
+    clip: rect(82px, 350px, 44px, 30px);
   }
   90% {
-    clip: rect(75px, 350px, 148px, 30px);
+    clip: rect(59px, 350px, 11px, 30px);
   }
   95% {
-    clip: rect(145px, 350px, 67px, 30px);
+    clip: rect(48px, 350px, 107px, 30px);
   }
   100% {
-    clip: rect(61px, 350px, 25px, 30px);
+    clip: rect(108px, 350px, 10px, 30px);
   }
 }
 /* line 78, ../sass/styles.scss */
@@ -277,75 +277,99 @@ a:hover {
   justify-content: flex-start;
   align-items: stretch;
   padding: 10px;
+  width: 30%;
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .link {
   padding-top: 5px;
   padding-left: 5px;
 }
 
-/* line 112, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 .dropbtn {
   background-color: black;
   color: white;
-  padding: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   font-size: 16px;
   border: 1px solid white;
   cursor: pointer;
+  margin-right: 1.5%;
 }
 
-/* line 121, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
+button {
+  width: 10%;
+  height: 5%;
+  margin-top: 1.5%;
+}
+
+/* line 130, ../sass/styles.scss */
 .dropbtn:hover,
 .dropbtn:focus {
   background-color: black;
   border: 2px solid white;
 }
 
-/* The container <div> - needed to position the dropdown content */
-/* line 128, ../sass/styles.scss */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  margin-top: -480px;
-  margin-left: 1200px;
+/* line 136, ../sass/styles.scss */
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* Dropdown Content (Hidden by Default) */
-/* line 136, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 /* Links inside the dropdown */
-/* line 146, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 .dropdown-content a {
   color: white;
   padding: 12px 16px;
-  margin-bottom: 10px;
-  margin-left: -200px;
   text-decoration: none;
-  display: block;
+  display: flex;
+  margin-left: 200%;
 }
 
 /* Change color of dropdown links on hover */
-/* line 156, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 .dropdown-content a:hover {
   background-color: white;
   color: black;
 }
 
-/* line 161, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 .show {
   display: block;
 }
 
-/* line 165, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 .www {
   background-color: black;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  /* line 177, ../sass/styles.scss */
+  button {
+    width: 15%;
+  }
+
+  /* line 180, ../sass/styles.scss */
+  .link {
+    width: 130%;
+  }
+
+  /* line 183, ../sass/styles.scss */
+  .dropbtn {
+    margin-top: 4.0%;
+  }
 }
