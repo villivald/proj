@@ -119,132 +119,132 @@ body {
 
 @keyframes glitch-before {
   0% {
-    clip: rect(118px, 350px, 135px, 30px);
+    clip: rect(8px, 350px, 22px, 30px);
   }
   5% {
-    clip: rect(136px, 350px, 32px, 30px);
+    clip: rect(58px, 350px, 150px, 30px);
   }
   10% {
-    clip: rect(67px, 350px, 72px, 30px);
+    clip: rect(17px, 350px, 112px, 30px);
   }
   15% {
-    clip: rect(102px, 350px, 65px, 30px);
+    clip: rect(107px, 350px, 40px, 30px);
   }
   20% {
-    clip: rect(94px, 350px, 121px, 30px);
+    clip: rect(48px, 350px, 10px, 30px);
   }
   25% {
-    clip: rect(127px, 350px, 87px, 30px);
+    clip: rect(134px, 350px, 28px, 30px);
   }
   30% {
-    clip: rect(144px, 350px, 124px, 30px);
+    clip: rect(137px, 350px, 19px, 30px);
   }
   35% {
-    clip: rect(145px, 350px, 116px, 30px);
+    clip: rect(14px, 350px, 130px, 30px);
   }
   40% {
-    clip: rect(109px, 350px, 87px, 30px);
+    clip: rect(27px, 350px, 121px, 30px);
   }
   45% {
-    clip: rect(107px, 350px, 95px, 30px);
+    clip: rect(64px, 350px, 124px, 30px);
   }
   50% {
-    clip: rect(9px, 350px, 78px, 30px);
+    clip: rect(137px, 350px, 95px, 30px);
   }
   55% {
-    clip: rect(83px, 350px, 91px, 30px);
+    clip: rect(107px, 350px, 142px, 30px);
   }
   60% {
-    clip: rect(104px, 350px, 27px, 30px);
+    clip: rect(30px, 350px, 87px, 30px);
   }
   65% {
-    clip: rect(148px, 350px, 103px, 30px);
+    clip: rect(13px, 350px, 75px, 30px);
   }
   70% {
-    clip: rect(89px, 350px, 16px, 30px);
+    clip: rect(109px, 350px, 92px, 30px);
   }
   75% {
-    clip: rect(65px, 350px, 125px, 30px);
+    clip: rect(116px, 350px, 13px, 30px);
   }
   80% {
-    clip: rect(6px, 350px, 130px, 30px);
+    clip: rect(20px, 350px, 23px, 30px);
   }
   85% {
-    clip: rect(5px, 350px, 130px, 30px);
+    clip: rect(76px, 350px, 90px, 30px);
   }
   90% {
-    clip: rect(4px, 350px, 112px, 30px);
+    clip: rect(70px, 350px, 87px, 30px);
   }
   95% {
-    clip: rect(44px, 350px, 119px, 30px);
+    clip: rect(86px, 350px, 80px, 30px);
   }
   100% {
-    clip: rect(35px, 350px, 86px, 30px);
+    clip: rect(89px, 350px, 82px, 30px);
   }
 }
 @keyframes glitch-after {
   0% {
-    clip: rect(75px, 350px, 136px, 30px);
+    clip: rect(45px, 350px, 93px, 30px);
   }
   5% {
-    clip: rect(65px, 350px, 17px, 30px);
+    clip: rect(38px, 350px, 65px, 30px);
   }
   10% {
-    clip: rect(91px, 350px, 86px, 30px);
+    clip: rect(10px, 350px, 147px, 30px);
   }
   15% {
-    clip: rect(27px, 350px, 114px, 30px);
+    clip: rect(8px, 350px, 100px, 30px);
   }
   20% {
-    clip: rect(104px, 350px, 100px, 30px);
+    clip: rect(6px, 350px, 36px, 30px);
   }
   25% {
-    clip: rect(143px, 350px, 105px, 30px);
+    clip: rect(136px, 350px, 44px, 30px);
   }
   30% {
-    clip: rect(8px, 350px, 10px, 30px);
+    clip: rect(149px, 350px, 123px, 30px);
   }
   35% {
-    clip: rect(98px, 350px, 145px, 30px);
+    clip: rect(47px, 350px, 127px, 30px);
   }
   40% {
-    clip: rect(112px, 350px, 89px, 30px);
+    clip: rect(118px, 350px, 73px, 30px);
   }
   45% {
-    clip: rect(116px, 350px, 42px, 30px);
+    clip: rect(104px, 350px, 141px, 30px);
   }
   50% {
-    clip: rect(89px, 350px, 43px, 30px);
+    clip: rect(102px, 350px, 104px, 30px);
   }
   55% {
-    clip: rect(116px, 350px, 8px, 30px);
+    clip: rect(43px, 350px, 41px, 30px);
   }
   60% {
-    clip: rect(121px, 350px, 135px, 30px);
+    clip: rect(58px, 350px, 120px, 30px);
   }
   65% {
-    clip: rect(145px, 350px, 64px, 30px);
+    clip: rect(122px, 350px, 137px, 30px);
   }
   70% {
-    clip: rect(71px, 350px, 66px, 30px);
+    clip: rect(126px, 350px, 148px, 30px);
   }
   75% {
-    clip: rect(57px, 350px, 93px, 30px);
+    clip: rect(129px, 350px, 5px, 30px);
   }
   80% {
-    clip: rect(109px, 350px, 94px, 30px);
+    clip: rect(56px, 350px, 27px, 30px);
   }
   85% {
-    clip: rect(40px, 350px, 77px, 30px);
+    clip: rect(108px, 350px, 136px, 30px);
   }
   90% {
-    clip: rect(135px, 350px, 71px, 30px);
+    clip: rect(109px, 350px, 129px, 30px);
   }
   95% {
-    clip: rect(89px, 350px, 31px, 30px);
+    clip: rect(134px, 350px, 36px, 30px);
   }
   100% {
-    clip: rect(144px, 350px, 138px, 30px);
+    clip: rect(85px, 350px, 33px, 30px);
   }
 }
 /* line 78, ../sass/styles.scss */
@@ -351,83 +351,78 @@ button {
   display: block;
 }
 
-/* line 171, ../sass/styles.scss */
-.www {
-  background-color: black;
-}
-
 @media only screen and (max-width: 620px) {
-  /* line 176, ../sass/styles.scss */
+  /* line 172, ../sass/styles.scss */
   button {
     width: 15%;
   }
 
-  /* line 179, ../sass/styles.scss */
+  /* line 175, ../sass/styles.scss */
   .link {
     width: 130%;
   }
 
-  /* line 182, ../sass/styles.scss */
+  /* line 178, ../sass/styles.scss */
   .dropbtn {
     margin-top: 4.0%;
   }
 
-  /* line 185, ../sass/styles.scss */
+  /* line 181, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 300%;
     width: 30%;
   }
 }
 @media only screen and (max-width: 1500px) {
-  /* line 192, ../sass/styles.scss */
+  /* line 188, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 420%;
   }
 }
 @media only screen and (max-width: 1400px) {
-  /* line 198, ../sass/styles.scss */
+  /* line 194, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 390%;
   }
 }
 @media only screen and (max-width: 1300px) {
-  /* line 204, ../sass/styles.scss */
+  /* line 200, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 360%;
   }
 }
 @media only screen and (max-width: 1200px) {
-  /* line 210, ../sass/styles.scss */
+  /* line 206, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 320%;
   }
 }
 @media only screen and (max-width: 1100px) {
-  /* line 216, ../sass/styles.scss */
+  /* line 212, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 270%;
   }
 }
 @media only screen and (max-width: 1000px) {
-  /* line 222, ../sass/styles.scss */
+  /* line 218, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 230%;
   }
 }
 @media only screen and (max-width: 900px) {
-  /* line 228, ../sass/styles.scss */
+  /* line 224, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 190%;
   }
 }
 @media only screen and (max-width: 800px) {
-  /* line 234, ../sass/styles.scss */
+  /* line 230, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 150%;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 240, ../sass/styles.scss */
+  /* line 236, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 120%;
   }
