@@ -85,6 +85,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 20%;
+  cursor: pointer;
 }
 /* line 24, ../sass/styles.scss */
 .box .glitch {
@@ -427,3 +428,4 @@ button {
     margin-left: 120%;
   }
 }
+
