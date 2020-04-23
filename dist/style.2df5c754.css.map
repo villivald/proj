@@ -1,0 +1,1 @@
+{"version":3,"sources":["ping_pong/style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"style.2df5c754.css","sourceRoot":"..","sourcesContent":["html,\nbody {\n    height: 100%;\n    margin: 0;\n}\n\n\nbody {\n    background: #F4F6F6;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}"]}

@@ -1,0 +1,24 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villivald/proj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/villivald/proj/issues"
+  },
+  "homepage": "https://github.com/villivald/proj#readme",
+  "dependencies": {
+    "popmotion": "^8.7.1"
+  },
+  "devDependencies": {}
+}

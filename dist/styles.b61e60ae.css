@@ -1,0 +1,438 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/styles.scss */
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 14, ../sass/styles.scss */
+body {
+  background-color: #000;
+}
+
+/* line 18, ../sass/styles.scss */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+/* line 24, ../sass/styles.scss */
+.box .glitch {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  position: relative;
+  padding: 30px;
+}
+/* line 32, ../sass/styles.scss */
+.box .glitch:before, .box .glitch:after {
+  content: 'Proj';
+  color: #fff;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  padding: 30px;
+}
+/* line 42, ../sass/styles.scss */
+.box .glitch:before {
+  left: 3px;
+  text-shadow: -3px 0 red;
+  animation: glitch-before 2s linear 0s infinite alternate;
+}
+/* line 48, ../sass/styles.scss */
+.box .glitch:after {
+  left: -3px;
+  text-shadow: -3px 0 blue;
+  animation: glitch-after 2s linear 0s infinite alternate;
+}
+
+@keyframes glitch-before {
+  0% {
+    clip: rect(8px, 350px, 22px, 30px);
+  }
+  5% {
+    clip: rect(58px, 350px, 150px, 30px);
+  }
+  10% {
+    clip: rect(17px, 350px, 112px, 30px);
+  }
+  15% {
+    clip: rect(107px, 350px, 40px, 30px);
+  }
+  20% {
+    clip: rect(48px, 350px, 10px, 30px);
+  }
+  25% {
+    clip: rect(134px, 350px, 28px, 30px);
+  }
+  30% {
+    clip: rect(137px, 350px, 19px, 30px);
+  }
+  35% {
+    clip: rect(14px, 350px, 130px, 30px);
+  }
+  40% {
+    clip: rect(27px, 350px, 121px, 30px);
+  }
+  45% {
+    clip: rect(64px, 350px, 124px, 30px);
+  }
+  50% {
+    clip: rect(137px, 350px, 95px, 30px);
+  }
+  55% {
+    clip: rect(107px, 350px, 142px, 30px);
+  }
+  60% {
+    clip: rect(30px, 350px, 87px, 30px);
+  }
+  65% {
+    clip: rect(13px, 350px, 75px, 30px);
+  }
+  70% {
+    clip: rect(109px, 350px, 92px, 30px);
+  }
+  75% {
+    clip: rect(116px, 350px, 13px, 30px);
+  }
+  80% {
+    clip: rect(20px, 350px, 23px, 30px);
+  }
+  85% {
+    clip: rect(76px, 350px, 90px, 30px);
+  }
+  90% {
+    clip: rect(70px, 350px, 87px, 30px);
+  }
+  95% {
+    clip: rect(86px, 350px, 80px, 30px);
+  }
+  100% {
+    clip: rect(89px, 350px, 82px, 30px);
+  }
+}
+@keyframes glitch-after {
+  0% {
+    clip: rect(45px, 350px, 93px, 30px);
+  }
+  5% {
+    clip: rect(38px, 350px, 65px, 30px);
+  }
+  10% {
+    clip: rect(10px, 350px, 147px, 30px);
+  }
+  15% {
+    clip: rect(8px, 350px, 100px, 30px);
+  }
+  20% {
+    clip: rect(6px, 350px, 36px, 30px);
+  }
+  25% {
+    clip: rect(136px, 350px, 44px, 30px);
+  }
+  30% {
+    clip: rect(149px, 350px, 123px, 30px);
+  }
+  35% {
+    clip: rect(47px, 350px, 127px, 30px);
+  }
+  40% {
+    clip: rect(118px, 350px, 73px, 30px);
+  }
+  45% {
+    clip: rect(104px, 350px, 141px, 30px);
+  }
+  50% {
+    clip: rect(102px, 350px, 104px, 30px);
+  }
+  55% {
+    clip: rect(43px, 350px, 41px, 30px);
+  }
+  60% {
+    clip: rect(58px, 350px, 120px, 30px);
+  }
+  65% {
+    clip: rect(122px, 350px, 137px, 30px);
+  }
+  70% {
+    clip: rect(126px, 350px, 148px, 30px);
+  }
+  75% {
+    clip: rect(129px, 350px, 5px, 30px);
+  }
+  80% {
+    clip: rect(56px, 350px, 27px, 30px);
+  }
+  85% {
+    clip: rect(108px, 350px, 136px, 30px);
+  }
+  90% {
+    clip: rect(109px, 350px, 129px, 30px);
+  }
+  95% {
+    clip: rect(134px, 350px, 36px, 30px);
+  }
+  100% {
+    clip: rect(85px, 350px, 33px, 30px);
+  }
+}
+/* line 78, ../sass/styles.scss */
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  height: 50px;
+  width: 200px;
+  border: 1px solid #feb300;
+  box-shadow: 4px 4px #feb300;
+  margin: 5px;
+  background-color: #000;
+}
+
+/* line 91, ../sass/styles.scss */
+a:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid #ff414e;
+  box-shadow: 4px 4px #ff414e;
+  transform: scale(1.1);
+}
+
+/* line 99, ../sass/styles.scss */
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 10px;
+  width: 30%;
+}
+
+/* line 108, ../sass/styles.scss */
+.link {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+/* line 113, ../sass/styles.scss */
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-right: 1.5%;
+}
+
+/* line 124, ../sass/styles.scss */
+button {
+  width: 10%;
+  height: 5%;
+  margin-top: 1.5%;
+}
+
+/* line 130, ../sass/styles.scss */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: black;
+  border: 2px solid white;
+  outline: none;
+}
+
+/* line 137, ../sass/styles.scss */
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Dropdown Content (Hidden by Default) */
+/* line 145, ../sass/styles.scss */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+/* line 154, ../sass/styles.scss */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+/* Change color of dropdown links on hover */
+/* line 162, ../sass/styles.scss */
+.dropdown-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* line 167, ../sass/styles.scss */
+.show {
+  display: block;
+}
+
+@media only screen and (max-width: 620px) {
+  /* line 172, ../sass/styles.scss */
+  button {
+    width: 15%;
+  }
+
+  /* line 175, ../sass/styles.scss */
+  .link {
+    width: 130%;
+  }
+
+  /* line 178, ../sass/styles.scss */
+  .dropbtn {
+    margin-top: 4.0%;
+  }
+
+  /* line 181, ../sass/styles.scss */
+  .dropdown-content a {
+    margin-left: 300%;
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  /* line 188, ../sass/styles.scss */
+  .dropdown-content a {
+    margin-left: 420%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  /* line 194, ../sass/styles.scss */
+  .dropdown-content a {
+    margin-left: 390%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  /* line 200, ../sass/styles.scss */
+  .dropdown-content a {
+    margin-left: 360%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 206, ../sass/styles.scss */
+  .dropdown-content a {
+    margin-left: 320%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  /* line 212, ../sass/styles.scss */
+  .dropdown-content a {
+    margin-left: 270%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /* line 218, ../sass/styles.scss */
+  .dropdown-content a {
+    margin-left: 230%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  /* line 224, ../sass/styles.scss */
+  .dropdown-content a {
+    margin-left: 190%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 230, ../sass/styles.scss */
+  .dropdown-content a {
+    margin-left: 150%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* line 236, ../sass/styles.scss */
+  .dropdown-content a {
+    margin-left: 120%;
+  }
+}
+
+.boxer {
+  width: 100px;
+  height: 100px;
+  background-color: #0074d9;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=/styles.b61e60ae.css.map */
