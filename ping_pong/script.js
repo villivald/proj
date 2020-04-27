@@ -5,6 +5,11 @@ const paddleHeight = grid * 8;
 const maxPaddleY = canvas.height - grid - paddleHeight;
 var paddleSpeed = 6;
 var ballSpeed = 4;
+var pointsP1 = 0;
+var pointsP2 = 0;
+let p1Points = document.querySelector(".player1")
+let p2Points = document.querySelector(".player2")
+let wrap = document.querySelector(".wrap")
 
 const leftPaddle = {
     x: grid * 2,
@@ -25,7 +30,7 @@ const rightPaddle = {
 const ball = {
     x: canvas.width / 2,
     y: canvas.height / 2,
-    width: grid,
+    width: grid + 50,
     height: grid,
     resetting: false,
     dx: ballSpeed,
@@ -58,9 +63,9 @@ function loop() {
     }
 
 
-    context.fillStyle = 'Lightblue';
+    context.fillStyle = 'crimson';
     context.fillRect(leftPaddle.x, leftPaddle.y, leftPaddle.width, leftPaddle.height);
-    context.fillStyle = '#D2B4DE';
+    context.fillStyle = '#0074D9';
     context.fillRect(rightPaddle.x, rightPaddle.y, rightPaddle.width, rightPaddle.height);
     ball.x += ball.dx;
     ball.y += ball.dy;
@@ -75,6 +80,26 @@ function loop() {
 
     if ((ball.x < 0 || ball.x > canvas.width) && !ball.resetting) {
         ball.resetting = true;
+        if (ball.x > 1000) {
+            pointsP1++;
+            p1Points.innerText = "🔴 Pelaaja: " + pointsP1;
+        } else if (ball.x < 0) {
+            pointsP2++;
+            p2Points.innerText = "🔵 Pelaaja: " + pointsP2;
+        }
+        if (pointsP1 >= 10) {
+            p1Points.innerText = "🔴 Punainen pelaaja voitti"
+            p2Points.innerText = ""
+            wrap.style.fontSize = "25px"
+            wrap.style.textAlign = "center"
+            this.destroy();
+        } else if (pointsP2 >= 10) {
+            p1Points.innerText = "🔵 Sininen pelaaja voitti"
+            p2Points.innerText = ""
+            wrap.style.fontSize = "25px"
+            wrap.style.textAlign = "center"
+            this.destroy();
+        }
 
         setTimeout(() => {
             ball.resetting = false;
@@ -88,7 +113,7 @@ function loop() {
         ball.x = leftPaddle.x + leftPaddle.width;
     } else if (collides(ball, rightPaddle)) {
         ball.dx *= -1;
-        ball.x = rightPaddle.x - ball.width;
+        ball.x = rightPaddle.x - ball.width - 40;
     }
 
     context.fillStyle = 'Black';
@@ -134,12 +159,12 @@ function loop() {
     context.fillRect(ball.x + 55, ball.y + 70, 5, 5);
 
 
-    context.fillStyle = '#EC7063';
+    context.fillStyle = '#333';
     context.fillRect(0, 0, canvas.width, grid);
     context.fillRect(0, canvas.height - grid, canvas.width, canvas.height);
 
-    for (let i = grid + 15; i < canvas.height - grid; i += grid * 2) {
-        context.fillStyle = '#EC7063';
+    for (let i = grid + 8; i < canvas.height - grid; i += grid * 2) {
+        context.fillStyle = '#707070';
         context.fillRect(canvas.width / 2 - grid / 2, i, grid, grid);
     }
 
