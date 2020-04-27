@@ -1,6 +1,7 @@
 window.onload = function () {
     let aiPoints = document.querySelector(".AI")
     let playerPoints = document.querySelector(".Player")
+    let wrap = document.querySelector(".wrap")
     var backgroundColor = "#dbdbdb";
     var paddleWidth = 100;
     var paddleHeight = 16;
@@ -105,8 +106,12 @@ window.onload = function () {
                         this.x = 160;
                         this.y = 240;
                         if (pointsPlayer >= 10) {
+                            aiPoints.innerText = "GAME OVER";
                             playerPoints.innerText = "PLAYER WINS";
-                            aiPoints.innerText = "";
+                            wrap.style.backgroundColor = "limegreen";
+                            wrap.style.color = "white";
+                            wrap.style.fontSize = "30px";
+                            wrap.style.paddingLeft = "20px";
                             this.destroy();
                         }
                     }
@@ -117,8 +122,12 @@ window.onload = function () {
                         this.x = 160;
                         this.y = 240;
                         if (pointsComputer >= 10) {
-                            aiPoints.innerText = "AI WINS";
-                            playerPoints.innerText = "";
+                            aiPoints.innerText = "GAME OVER";
+                            playerPoints.innerText = "COMPUTER WINS";
+                            wrap.style.backgroundColor = "crimson";
+                            wrap.style.color = "white";
+                            wrap.style.fontSize = "30px";
+                            wrap.style.paddingLeft = "20px";
                             this.destroy();
                         }
                     }
