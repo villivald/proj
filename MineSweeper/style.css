@@ -1,0 +1,34 @@
+.grid {
+    height: 520px;
+    width: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    /*border: 1px solid rgb(157, 157, 163);*/
+}
+
+.grid div {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    border-color: #949494 #949494 #4d4d4d #4d4d4d;
+    outline: none;
+    transition: 0.2s;
+}
+
+.grid div:hover {
+    background-color: #706e6e;
+    border-color: #504f4f #504f4f #2b2a2a #2b2a2a;
+    transform: scale(1.1);
+}
+
+
+.checked {
+    background-color: green;
+}
+
+/** 
+.bomb {
+    background-color: orange;
+} 
+**/
