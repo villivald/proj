@@ -1,7 +1,9 @@
-// code taken from one of the examples on popmotion.io
 const ball = document.querySelector(".box");
 const divStyler = popmotion.styler(ball);
-const ballXY = popmotion.value({ x: 0, y: 0 }, divStyler.set);
+const ballXY = popmotion.value({
+  x: 0,
+  y: 0
+}, divStyler.set);
 
 popmotion.listen(ball, "mousedown touchstart").start(e => {
   e.preventDefault();
@@ -13,7 +15,10 @@ popmotion.listen(document, "mouseup").start(() => {
     .spring({
       from: ballXY.get(),
       velocity: ballXY.getVelocity(),
-      to: { x: 0, y: 0 },
+      to: {
+        x: 0,
+        y: 0
+      },
       mass: 4,
       damping: 15,
       stiffness: 200
