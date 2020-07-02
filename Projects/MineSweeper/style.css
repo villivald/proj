@@ -22,9 +22,19 @@
 }
 
 .grid div:hover {
-  background-color: #706e6e;
   border-color: #504f4f #504f4f #2b2a2a #2b2a2a;
-  transform: scale(1.1);
+  transform: translateY(1px);
+  box-shadow: 4px 4px #666;
+  font-weight: bolder;
+}
+
+.grid div:active,
+.grid div:focus {
+  background-color: #027d31;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+  transform: translateY(2px);
+  outline: none;
+  font-weight: bolder;
 }
 
 .checked {
