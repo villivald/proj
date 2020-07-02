@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function createBoard() {
 
-        // get shuffled game array with random bombs
+        // get shuffled game array with random squares
 
         const bombsArray = Array(bombAmount).fill("bomb")
         const emptyArray = Array(width * width - bombAmount).fill("valid")
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let i = 0; i < squares.length; i++) {
             let total = 0
             const isLeftEdge = (i % width === 0)
-            const isRightEdge = (i === width - 1)
+            const isRightEdge = (i % width === width - 1)
 
             if (squares[i].classList.contains("valid")) {
                 if (i > 0 && !isLeftEdge && squares[i - 1].classList.contains("bomb")) total++
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //check neighbouring squares
 
-    function checkSquare(square, currentID) {
+    function checkSquare(squares, currentID) {
         const isLeftEdge = (currentID % width === 0)
         const isRightEdge = (currentID % width === width - 1)
 
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 click(newSquare)
             }
             if (currentID > 10) {
-                const newId = squares[parseInt(currentID) - width].id
+                const newId = squares[parseInt(currentID - width)].id
                 const newSquare = document.getElementById(newId)
                 click(newSquare)
             }
@@ -152,13 +152,26 @@ document.addEventListener("DOMContentLoaded", () => {
     // game over
 
     function gameOver(square) {
-        console.log("BOOM! Game Over!");
+        var over = document.createElement("div");
+        over.className = "gameover"
+        over.textContent = "BOOM! Game Over!";
+
+        var playAgain = document.createElement('button');
+        playAgain.innerHTML = 'Play Again';
+        playAgain.className = "playagain"
+        playAgain.onclick = () => {
+            window.location.reload();
+        };
+
+        document.body.appendChild(over);
+        document.body.appendChild(playAgain);
         isGameOver = true
 
         // show all the bombs
         squares.forEach(square => {
             if (square.classList.contains("bomb")) {
                 square.innerHTML = "💣"
+                square.style.backgroundColor = '#F27F1B'
             }
         })
     }
