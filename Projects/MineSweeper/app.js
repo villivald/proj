@@ -55,9 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 squares[i].setAttribute("data", total)
             }
         }
-
-
-
     }
     createBoard()
 
@@ -185,13 +182,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 matches++
             }
             if (matches === bombAmount) {
-                console.log("YOU WIN!");
+                var over = document.createElement("div");
+                over.className = "gameover"
+                over.textContent = "YOU WIN!";
+
+                var playAgain = document.createElement('button');
+                playAgain.innerHTML = 'Play Again';
+                playAgain.className = "playagain"
+                playAgain.onclick = () => {
+                    window.location.reload();
+                };
                 isGameOver = true
             }
         }
     }
-
-
-
 
 })
