@@ -179,7 +179,7 @@ body {
 /* line 24, ../sass/styles.scss */
 .box .glitch {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 100px;
   position: relative;
@@ -189,7 +189,7 @@ body {
 /* line 32, ../sass/styles.scss */
 .box .glitch:before,
 .box .glitch:after {
-  content: 'Proj';
+  content: "Proj";
   color: #fff;
   position: absolute;
   top: 0;
@@ -422,6 +422,21 @@ a:hover {
   padding-left: 5px;
 }
 
+.link-blog {
+  padding-top: 5px;
+  padding-left: 5px;
+  text-decoration: none;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  height: 50px;
+  width: 200px;
+  border: 1px solid #75a9bf;
+  box-shadow: 4px 4px #75a9bf;
+  margin: 5px;
+  background-color: #000;
+}
+
 /* line 113, ../sass/styles.scss */
 .dropbtn {
   background-color: black;
@@ -488,7 +503,6 @@ button {
 }
 
 @media only screen and (max-width: 620px) {
-
   /* line 172, ../sass/styles.scss */
   button {
     width: 15%;
@@ -501,7 +515,7 @@ button {
 
   /* line 178, ../sass/styles.scss */
   .dropbtn {
-    margin-top: 4.0%;
+    margin-top: 4%;
   }
 
   /* line 181, ../sass/styles.scss */
@@ -512,7 +526,6 @@ button {
 }
 
 @media only screen and (max-width: 1500px) {
-
   /* line 188, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 420%;
@@ -520,7 +533,6 @@ button {
 }
 
 @media only screen and (max-width: 1400px) {
-
   /* line 194, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 390%;
@@ -528,7 +540,6 @@ button {
 }
 
 @media only screen and (max-width: 1300px) {
-
   /* line 200, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 360%;
@@ -536,7 +547,6 @@ button {
 }
 
 @media only screen and (max-width: 1200px) {
-
   /* line 206, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 320%;
@@ -544,7 +554,6 @@ button {
 }
 
 @media only screen and (max-width: 1100px) {
-
   /* line 212, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 270%;
@@ -552,7 +561,6 @@ button {
 }
 
 @media only screen and (max-width: 1000px) {
-
   /* line 218, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 230%;
@@ -560,7 +568,6 @@ button {
 }
 
 @media only screen and (max-width: 900px) {
-
   /* line 224, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 190%;
@@ -568,7 +575,6 @@ button {
 }
 
 @media only screen and (max-width: 800px) {
-
   /* line 230, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 150%;
@@ -576,7 +582,6 @@ button {
 }
 
 @media only screen and (max-width: 700px) {
-
   /* line 236, ../sass/styles.scss */
   .dropdown-content a {
     margin-left: 120%;
