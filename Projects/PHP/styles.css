@@ -1,0 +1,95 @@
+h2 {
+    display: grid;
+    grid-template-columns: 2.5fr 5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: #cbf7c7;
+    height: 70px;
+    margin-top: -10px;
+}
+th {
+    text-align: left;
+    padding: 0px 5px 15px 0px;
+}
+td {
+    font-size: 0.95rem;
+    padding: 0px 35px 10px 0px;
+}
+td:first-child {
+    font-weight: bold;
+}
+table {
+    display: flex;
+    justify-content: center;
+}
+
+.curPage {
+    color: crimson;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.a-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5%;
+}
+.filter-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a.button {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 14px;
+    font-weight: bold;
+    box-shadow: 4px 4px #999;
+    margin-left: 20px;
+}
+a.button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 4px 4px crimson;
+}
+
+input {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 80%;
+}
+label {
+    margin-bottom: 10px;
+}
+
+.filter-button {
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 14px;
+    font-weight: bold;
+    box-shadow: 4px 4px #cbf7c7;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.1rem;
+    height: 50px;
+}
+.filter-button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 4px 4px #999;
+}
+form {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    margin-left: 20px;
+}
